@@ -1,0 +1,43 @@
+
+/*Media Queries for TABs:*/
+
+@media only screen and (max-width: 1024px) and (min-width:768px)  {
+    
+    .main-container{
+        grid-template-columns: 280px 280px;
+    }
+
+    .navclass{
+        grid-template-columns: 280px 280px;
+
+    }
+
+    .footerclass{
+        grid-template-columns: 280px;
+
+    }
+
+}
+/*
+Media Queries for MOBILEs:*/
+@media only screen and (max-width: 800px){
+    
+    .main-container{
+        grid-template-columns: 250px;
+    }
+
+    .navclass{
+        grid-template-columns: 250px;
+
+    }
+    .footerclass{
+        grid-template-columns: 250px;
+
+    }
+}
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
